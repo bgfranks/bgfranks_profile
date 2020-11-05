@@ -1,12 +1,11 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Footer />
+      <p>this is the home page</p>
     </div>
   )
 }
+
+export default Home
