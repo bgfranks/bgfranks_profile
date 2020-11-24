@@ -6,6 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Brandon Franks",
+    description: "Brandon Franks personal portfolio site",
+  },
   plugins: [
     { resolve: "gatsby-plugin-styled-components" },
     {
