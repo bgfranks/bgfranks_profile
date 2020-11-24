@@ -3,24 +3,22 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const NavContainer = styled.div`
-  background: #333;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 10px;
   height: 7vh;
   display: flex;
-  justify-content: bottom;
-  align-items: space-between;
-  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
 
   ul {
     display: flex;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 100%;
 
     a {
       text-decoration: none;
       color: #fff;
-      padding: 20px;
+      padding: 25px;
     }
   }
 `
@@ -28,23 +26,23 @@ const NavContainer = styled.div`
 const Navbar = () => {
   return (
     <NavContainer>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Me</Link>
-        </li>
-      </ul>
+      <div></div>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+        </ul>
+      </div>
     </NavContainer>
   )
 }
